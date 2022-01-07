@@ -1,12 +1,18 @@
 # Ubuntu 20 amd64 - Package install of ver 7.0 piaware, dump1090-fa, piaware-web, dump978-fa
 
-`$ sudo wget -O /etc/apt/sources.list.d/abcd567a.list https://raw.githubusercontent.com/abcd567a/ubuntu/master/abcd567a.list `
-</br></br>
-`$ sudo wget -O - https://raw.githubusercontent.com/abcd567a/ubuntu/master/KEY.gpg | sudo apt-key add -  `
+_This command is very long. Please scroll right to see and copy it in FULL._ </br>
+```
+sudo wget -O /etc/apt/sources.list.d/abcd567a.list https://raw.githubusercontent.com/abcd567a/ubuntu/master/abcd567a.list  
+```
+</br>
+
+_This command is very long. Please scroll right to see and copy it in FULL._ </br>
+```
+sudo wget -O - https://raw.githubusercontent.com/abcd567a/ubuntu/master/KEY.gpg | sudo apt-key add -  
+```
 </br></br>
 `$ sudo apt update `
 </br></br>
-</br>
 `$ sudo apt install piaware  `
 </br></br>
 `$ sudo apt install dump1090-fa  `
