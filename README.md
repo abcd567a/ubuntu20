@@ -1,19 +1,19 @@
 # Ubuntu 20 amd64 - Package install of ver 7.0 piaware, dump1090-fa, piaware-web, dump978-fa
 
-_**Command 1:** This command is long. Please scroll right to see and copy it in FULL._ </br>
+_**Command 1:** This command is long. Please scroll right to see and copy it in FULL._ 
 ```
 sudo wget -O /etc/apt/sources.list.d/abcd567a.list https://abcd567a.github.io/ubuntu/abcd567a.list
 ```
 </br>
 
-_**Command 2:** This command is long. Please scroll right to see and copy it in FULL._ </br>
+_**Command 2:** This command is long. Please scroll right to see and copy it in FULL._ 
 
 ```
 sudo wget -O - https://abcd567a.github.io/ubuntu/KEY.gpg | sudo apt-key add -  
 ```
+</br>
 
-
-_**Command 3:**_</br>
+_**Command 3:**_
 
 ```
 sudo apt update 
