@@ -1,4 +1,4 @@
-# Ubuntu 20 amd64 - Package install of ver 7.0 piaware, dump1090-fa, piaware-web, dump978-fa
+# Ubuntu 20 amd64 - Package install of ver 7.1 piaware, dump1090-fa, piaware-web, dump978-fa
 
 _**Command 1:** This command is long. Please scroll right to see and copy it in FULL._ 
 ```
