@@ -65,7 +65,7 @@ sudo reboot
 (1) Issue following command to install serialization software: </br>
 `sudo apt install rtl-sdr ` </br>
 
-(2) Unplug ALL DVB-T dongles from RPi
+(2) Unplug ALL DVB-T dongles from Computer
 
 (3) Plugin only that DVB-T dongle which you want to use for dump1090-fa. All other dongles should be unplugged.
 
