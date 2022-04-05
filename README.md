@@ -39,6 +39,9 @@ sudo reboot
 sudo apt install dump978-fa  
 ```
 ```
+sudo apt install skyaware978  
+```
+```
 sudo piaware-config uat-receiver-type sdr  
 ```
 
