@@ -6,7 +6,7 @@
 sudo wget -O /etc/apt/sources.list.d/abcd567a.list https://abcd567a.github.io/ubuntu/abcd567a.list
 ```
 ```
-sudo wget -O - https://abcd567a.github.io/ubuntu/KEY.gpg | sudo apt-key add -  
+sudo wget -O /etc/apt/trusted.gpg.d/abcd567a-key.gpg https://abcd567a.github.io/ubuntu/KEY2.gpg
 ```
 ```
 sudo apt update  
