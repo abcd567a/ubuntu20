@@ -1,6 +1,6 @@
 # Package install of ver 8.2 piaware, dump1090-fa, piaware-web, dump978-fa on:
-## (1) Ubuntu20 amd64/x86_64 (PC)
-## (2) Ubuntu20 arm64/aarch64 (RPi 3 & 4) </br></br> 
+## (1) Ubuntu20.04 (focal) amd64/x86_64 (PC)
+## (2) Ubuntu20.04 (focal) arm64/aarch64 (RPi 3 & 4) </br></br> 
 
 ### STEP-1: Add this repository to list of apt sources by following 3 commands:
 **First two commands are long. Please scroll right to see and copy them in FULL.** 
