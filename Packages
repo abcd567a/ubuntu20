@@ -254,6 +254,31 @@ Description: Local web interface for dump978
 Package: tcl-tls
 Source: tcltls
 Version: 1.7.22-2+fa1~bpo10+1
+Architecture: armhf
+Maintainer: Debian Tcl/Tk Packagers <pkg-tcltk-devel@lists.alioth.debian.org>
+Installed-Size: 150
+Depends: libc6 (>= 2.4), libssl1.1 (>= 1.1.0), libtcl8.6 (>= 8.6.9+dfsg-2) | libtcl
+Conflicts: libtls0, tcltls
+Replaces: libtls0, tcltls
+Provides: tcltls
+Filename: ./tcl-tls_1.7.22-2-fa1-bpo10-1_armhf.deb
+Size: 66076
+MD5sum: b46b69a6e7a5222a250671b419b78a9c
+SHA1: 99fa3e258e9eb8b75df9b7ca482bbd2f0a5b8335
+SHA256: 5fba7f5fe5a8d78e8f485a1b25275dfe593851ec2d112c78f08697e322ce5ddc
+Section: libs
+Priority: optional
+Multi-Arch: same
+Homepage: https://core.tcl.tk/tcltls
+Description: TLS OpenSSL extension to Tcl
+ This package enables communication over SSL-encrypted channels in Tcl.
+ .
+ Both client and server-side sockets are possible. Additionally, full
+ filevent semantics should be intact.
+
+Package: tcl-tls
+Source: tcltls
+Version: 1.7.22-2+fa1~bpo10+1
 Architecture: amd64
 Maintainer: Debian Tcl/Tk Packagers <pkg-tcltk-devel@lists.alioth.debian.org>
 Installed-Size: 167
@@ -261,7 +286,7 @@ Depends: libc6 (>= 2.14), libssl1.1 (>= 1.1.0), libtcl8.6 (>= 8.6.9+dfsg-2) | li
 Conflicts: libtls0, tcltls
 Replaces: libtls0, tcltls
 Provides: tcltls
-Filename: ./tcl-tls_1.7.22-2+fa1-bpo10-1_amd64.deb
+Filename: ./tcl-tls_1.7.22-2-fa1-bpo10-1_amd64.deb
 Size: 67572
 MD5sum: 59c9b8913d8a46df5d905f1459cd6df3
 SHA1: ea30eecd08fe46786716ab24a9f4b94399caa342
@@ -286,36 +311,11 @@ Depends: libc6 (>= 2.17), libssl1.1 (>= 1.1.0), libtcl8.6 (>= 8.6.9+dfsg-2) | li
 Conflicts: libtls0, tcltls
 Replaces: libtls0, tcltls
 Provides: tcltls
-Filename: ./tcl-tls_1.7.22-2+fa1-bpo10-1_arm64.deb
+Filename: ./tcl-tls_1.7.22-2-fa1-bpo10-1_arm64.deb
 Size: 67236
 MD5sum: f831d320f3b9920eb24e3aa67abbe289
 SHA1: e01c3260a4b22f00af9783628b10e2d847ef1a3d
 SHA256: b23c38c38d49a83d362cfd2857b0caa56d6fabd7948420efdfa7734c4609a163
-Section: libs
-Priority: optional
-Multi-Arch: same
-Homepage: https://core.tcl.tk/tcltls
-Description: TLS OpenSSL extension to Tcl
- This package enables communication over SSL-encrypted channels in Tcl.
- .
- Both client and server-side sockets are possible. Additionally, full
- filevent semantics should be intact.
-
-Package: tcl-tls
-Source: tcltls
-Version: 1.7.22-2+fa1~bpo10+1
-Architecture: armhf
-Maintainer: Debian Tcl/Tk Packagers <pkg-tcltk-devel@lists.alioth.debian.org>
-Installed-Size: 150
-Depends: libc6 (>= 2.4), libssl1.1 (>= 1.1.0), libtcl8.6 (>= 8.6.9+dfsg-2) | libtcl
-Conflicts: libtls0, tcltls
-Replaces: libtls0, tcltls
-Provides: tcltls
-Filename: ./tcl-tls_1.7.22-2+fa1-bpo10-1_armhf.deb
-Size: 66076
-MD5sum: b46b69a6e7a5222a250671b419b78a9c
-SHA1: 99fa3e258e9eb8b75df9b7ca482bbd2f0a5b8335
-SHA256: 5fba7f5fe5a8d78e8f485a1b25275dfe593851ec2d112c78f08697e322ce5ddc
 Section: libs
 Priority: optional
 Multi-Arch: same
